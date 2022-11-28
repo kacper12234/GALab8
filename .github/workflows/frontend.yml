@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-push-images:
-    name: Budowa i publikacja obrazw na repozytorium
+    name: Budowa i publikacja obrazów na repozytorium
     runs-on: ubuntu-latest
 
     steps:
@@ -31,5 +31,5 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            spg51/lab:ghfrontend1
+            kacper12234/lab:ghfrontend1
           
